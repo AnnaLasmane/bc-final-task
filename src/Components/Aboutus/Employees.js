@@ -5,23 +5,21 @@ function Employees({employees}) {
         return (
             <tr key={index}>
                 <td>
-                    <img src={employee.image} className="img-fluid" style={{maxHeight: '75px'}} />
+                    <img src={employee.image} className="img-fluid" style={{maxHeight: '100px'}} />
                 </td>
-                <td>{employee.title}</td>
-              
-             
+                <td>{employee.name}</td>
             </tr>
         )
     })
 
 
     return (
-        <table style={{width: '100%'}}>
+        <table style={{width: '50%'}}>
             <thead>
                 <tr>
                     <th></th>
                     <th>Our best employees</th>
-                    <th></th>
+                   
                 </tr>
             </thead>
             <tbody>

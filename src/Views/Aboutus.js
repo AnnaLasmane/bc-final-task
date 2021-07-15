@@ -10,9 +10,9 @@ import {useState} from 'react';
 function Aboutus() {
     const [activeTab, setActiveTab] = useState('employees');
     const employees = [
-        {image: 'https://picsum.photos/500/500',  title: 'John'},
-        {image: 'https://picsum.photos/500/500',  title: 'maria' },
-        {image: 'https://picsum.photos/500/500', title: 'Figaro'},
+        {image: 'https://www.placecage.com/200/200',  name: 'Nicolas'},
+        {image: 'https://www.stevensegallery.com/200/200',  name: 'Steven' },
+        {image: 'https://placebeard.it/200x200', name: 'This guy'},
     ];
 
    
