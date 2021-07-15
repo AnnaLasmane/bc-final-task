@@ -37,9 +37,27 @@ function Articles() {
                 </div>
             </div>
             <div className="row">
-              
+                {articleElements}
             </div>
-            {articleElements}
+            <div className="row">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-end">
+                        <li className="page-item">
+                            <NavLink className="page-link" to="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </NavLink>
+                        </li>
+                        <li className="page-item"><NavLink className="page-link" to="#">1</NavLink></li>
+                        <li className="page-item"><NavLink className="page-link" to="#">2</NavLink></li>
+                        <li className="page-item"><NavLink className="page-link" to="#">3</NavLink></li>
+                        <li className="page-item">
+                            <NavLink className="page-link" to="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </NavLink>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     )
 }

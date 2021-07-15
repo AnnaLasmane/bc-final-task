@@ -1,0 +1,7 @@
+.images-wrapper img {
+    max-width: 100%;
+}
+
+.small-article-image {
+    cursor: pointer;
+}
