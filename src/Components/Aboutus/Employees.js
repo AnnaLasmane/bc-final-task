@@ -1,13 +1,13 @@
-function Employees() {
+function Employees({employees}) {
 
-    let employeeRows = employees.map((employees, index) => {
+    let employeeRows = employees.map((employee, index) => {
     
         return (
             <tr key={index}>
                 <td>
-                    <img src={employees.image} className="img-fluid" style={{maxHeight: '75px'}} />
+                    <img src={employee.image} className="img-fluid" style={{maxHeight: '75px'}} />
                 </td>
-                <td>{employees.title}</td>
+                <td>{employee.title}</td>
               
              
             </tr>
@@ -20,7 +20,7 @@ function Employees() {
             <thead>
                 <tr>
                     <th></th>
-                    <th>Our best employee</th>
+                    <th>Our best employees</th>
                     <th></th>
                 </tr>
             </thead>

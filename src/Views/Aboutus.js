@@ -25,9 +25,9 @@ function Aboutus() {
     if (activeTab === 'employees') {
         tabContent = <Employees  employees={employees}/>
     } else if (activeTab === 'vacancies') {
-        tabContent = <Vacancies vacancies={vacancies}/>
+        tabContent = <Vacancies />
     } else if (activeTab === 'mission') {
-        tabContent = <Mission mission={mission}/>
+        tabContent = <Mission />
     }
 
 
