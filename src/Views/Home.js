@@ -3,19 +3,19 @@ import {NavLink} from 'react-router-dom';
 function Home() {
     const articles = [
         {
-            title: 'Articles 1',
+            title: 'Article 1',
             image: 'https://picsum.photos/200/200',
             text: 'Some info about the article',
             id: 'first-article',
         },
         {
-            title: 'Articles 2',
+            title: 'Article 2',
             image: 'https://placekitten.com/200/200',
             text: 'Some info about the article',
             id: 'second-article',
         },
         {
-            title: 'Articles 3',
+            title: 'Article 3',
             image: 'https://loremflickr.com/200/200',
             text: 'Some info about the article',
             id: 'tird-article',
@@ -79,6 +79,9 @@ function Home() {
                 </div>
             </div>
             <div className="row">
+            <div className="col mt-3 mb-3">
+                    <h6>3 most recent articles</h6>
+                </div>
               
             </div>
             <div className="row">
