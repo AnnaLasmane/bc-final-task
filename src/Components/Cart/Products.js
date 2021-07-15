@@ -24,32 +24,18 @@ function Products({products, changeProductQty, removeProduct}) {
         )
     })
 
-    if (productRows.length === 0) {
-        productRows = <tr><td colSpan="6" className="text-center"><h4>The cart is empty</h4></td></tr>
-    }
 
     return (
         <table style={{width: '100%'}}>
             <thead>
                 <tr>
                     <th></th>
-                    <th>Title</th>
-                    <th>Price</th>
-                    <th>QTY</th>
-                    <th>Total</th>
+                    <th>Our best employee</th>
                     <th></th>
                 </tr>
             </thead>
             <tbody>
                 {productRows}
-            </tbody>
-            <tbody>
-                <tr>
-                    <td colSpan="4"></td>
-                    <td colSpan="2">
-                        <h4>Total: {totalPrice.toFixed(2)} EUR</h4>
-                    </td>
-                </tr>
             </tbody>
         </table>
     )

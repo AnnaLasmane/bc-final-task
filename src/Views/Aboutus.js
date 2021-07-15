@@ -1,6 +1,6 @@
 import Breadcrumbs from '../Components/Breadcrumbs';
 import Products from '../Components/Cart/Products';
-import Address from '../Components/Cart/Address';
+import Vacancies from '../Components/Cart/Vacancies';
 import Summary from '../Components/Cart/Summary';
 import {useState} from 'react';
 
@@ -13,9 +13,8 @@ function Aboutus() {
     ]
     const [activeTab, setActiveTab] = useState('products');
     const [products, setProducts] = useState([
-        {image: 'https://picsum.photos/500/500', price: 20, title: 'Product 1', quantity: 3},
-        {image: 'https://picsum.photos/500/500', price: 19.99, title: 'Product 2', quantity: 5},
-        {image: 'https://picsum.photos/500/500', price: 42.01, title: 'Product 3', quantity: 2},
+        {image: 'https://placebeard.it/500x500', price: 20, title: 'John Doe', quantity: 3},
+    
     ]);
     const [billingAddress, setBillingAddress] = useState('');
     const [shippingAddress, setShippingAddress] = useState('');
@@ -40,7 +39,7 @@ function Aboutus() {
     if (activeTab === 'products') {
         tabContent = <Products products={products} changeProductQty={changeProductQty} removeProduct={removeProduct} />
     } else if (activeTab === 'address') {
-        tabContent = <Address billingAddress={billingAddress} setBillingAddress={setBillingAddress} shippingAddress={shippingAddress} setShippingAddress={setShippingAddress} />
+        tabContent = <Vacancies />
     } else if (activeTab === 'summary') {
         tabContent = <Summary billingAddress={billingAddress} shippingAddress={shippingAddress} products={products} />
     }
@@ -67,7 +66,7 @@ function Aboutus() {
                             <button class={'nav-link' + (activeTab === 'products' ? ' active' : '')} onClick={() => setActiveTab('products')}>Products</button>
                         </li>
                         <li class="nav-item">
-                            <button class={'nav-link' + (activeTab === 'address' ? ' active' : '')} onClick={() => setActiveTab('address')}>Address</button>
+                            <button class={'nav-link' + (activeTab === 'address' ? ' active' : '')} onClick={() => setActiveTab('address')}>Vacancies</button>
                         </li>
                         <li class="nav-item">
                             <button class={'nav-link' + (activeTab === 'summary' ? ' active' : '')} onClick={() => setActiveTab('summary')}>Summary</button>
