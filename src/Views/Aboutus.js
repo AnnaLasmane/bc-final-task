@@ -30,9 +30,7 @@ function Aboutus() {
         tabContent = <Mission />
     }
 
-
-
-
+    
     return (
         <div className="container">
             <div className="row">
@@ -62,6 +60,7 @@ function Aboutus() {
                 </div>
             </div>
         </div>
+      
     )
 }
 
