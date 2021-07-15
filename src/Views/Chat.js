@@ -23,6 +23,23 @@ function Chat() {
                     <h5> Chat</h5>
                 </div>
             </div>
+            <ul id="chat-window" class="bg-light fw-bold overflow-auto">
+            <li>
+                <div class="card bg-light text-secondary my-1">
+                    <div class="card-header fs-6 text-dark">
+                        <span id="name" class="me-5">Anna L.</span>
+                        <span id="date">22.07.2021 18:30</span>
+                    </div>
+                    <div class="card-body m-0 fs-6">
+                        <div class="">
+                            <p>Hello! If you have any question, please write in the message box below!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    
         </div>
     )
 }
