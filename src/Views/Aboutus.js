@@ -9,6 +9,7 @@ import MapContainer from '../Components/ MapContainer';
 
 
 
+
 function Aboutus() {
     const [activeTab, setActiveTab] = useState('employees');
     const employees = [
@@ -47,7 +48,7 @@ function Aboutus() {
                 </div>
             </div>
             <div className="row">
-                <div className="col">
+                <div className="col mb-5 border-bottom">
                     <ul class="nav nav-tabs">
                         <li class="nav-item">
                             <button class={'nav-link' + (activeTab === 'employees' ? ' active' : '')} onClick={() => setActiveTab('employees')}>Employees</button>
@@ -63,8 +64,16 @@ function Aboutus() {
                 </div>
             </div>
             <div className="row">
-                <div className="col">
+                <div className="col-6">
                     <MapContainer />
+        </div>
+        <div className="col-6">
+        <h5>Adress</h5>
+        <p>Jūrama, Mana iela 2</p>
+        <h5>Email</h5>
+        <p>anna@sgt-bootcamp.com</p>
+        <h5>Phone</h5>
+        <p>+371 xxxxxx</p>
         </div>
         </div>
         </div>

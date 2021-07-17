@@ -1,4 +1,7 @@
 import Breadcrumbs from '../Components/Breadcrumbs';
+import React from "react";
+import Forms from '../Components/Forms';
+
 
 function Register() {
 
@@ -6,10 +9,6 @@ function Register() {
         { link: '/', title: 'Home' },
         { title: 'Register' },
     ]
-
-
-
-
 
     return (
         <div className="container">
@@ -74,7 +73,13 @@ function Register() {
                 </div>
                 </div>
             </form>
+            <div className="row">
+                <div className="col-6">
+                    <Forms />
         </div>
+        </div>
+        </div>
+        
     )
 }
 
