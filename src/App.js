@@ -6,7 +6,7 @@ import Aboutus from './Views/Aboutus';
 import Chat from './Views/Chat';
 import Register from './Views/Register';
 import Page404 from './Views/Page404';
-
+import { GoogleMap, LoadScript } from '@react-google-maps/api';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 
@@ -25,7 +25,7 @@ function App() {
                     <Route exact path="/chat">
                         <Chat />
                     </Route>
-                    <Route path="/articles/:articleID">
+                    <Route path="/articles/:articleId">
                         <Article />
                     </Route>
                     <Route exact path="/register">

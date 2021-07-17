@@ -3,6 +3,8 @@ import Employees from '../Components/Aboutus/Employees';
 import Vacancies from '../Components/Aboutus/Vacancies';
 import Mission from '../Components/Aboutus/Mission';
 import {useState} from 'react';
+import MapContainer from '../Components/ MapContainer';
+
 
 
 
@@ -30,6 +32,7 @@ function Aboutus() {
         tabContent = <Mission />
     }
 
+    
     
     return (
         <div className="container">
@@ -59,9 +62,12 @@ function Aboutus() {
                     {tabContent}
                 </div>
             </div>
- 
+            <div className="row">
+                <div className="col">
+                    <MapContainer />
         </div>
-      
+        </div>
+        </div>
     )
 }
 
