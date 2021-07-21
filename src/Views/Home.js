@@ -5,19 +5,19 @@ function Home() {
         {
             title: 'Rocky',
             image: 'https://flxt.tmsimg.com/assets/p162719_p_v10_au.jpg',
-            text: 'Some info about the article',
+            text: 'Rocky Balboa is a struggling boxer trying to make the big time, working as a debt collector for a pittance.',
             id: 'first-article',
         },
         {
             title: 'Rambo',
             image: 'https://images-na.ssl-images-amazon.com/images/I/81gJdK33ERL._RI_.jpg',
-            text: 'Some info about the article',
+            text: 'Rambo is a former US Special Forces soldier who fought in Vietnam and won Medal of Honor, but his time in Vietnam still haunts him.',
             id: 'second-article',
         },
         {
             title: 'Assassins',
             image: 'https://images-na.ssl-images-amazon.com/images/I/91UhqniJxyL._RI_.jpg',
-            text: 'Some info about the article',
+            text: 'Robert Rath is a seasoned hitman who just wants out of the business with no back talk. But, as things go, it aint so easy.',
             id: 'tird-article',
         },
     ];
@@ -80,7 +80,7 @@ function Home() {
             </div>
             <div className="row">
             <div className="col mt-4 mb-3">
-                    <h5> Top 3 Sylvester Stallone movies from 90s </h5>
+                    <h5> Top 3 Sylvester Stallone movies from 80s & 90s </h5>
                 </div>
               
             </div>

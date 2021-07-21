@@ -69,7 +69,7 @@ function Aboutus() {
         </div>
         <div className="col-6">
         <h5>Adress</h5>
-        <p>Jūrama, Mana iela 2</p>
+        <p>Jūrmala, Mana iela 2</p>
         <h5>Email</h5>
         <p>anna@sgt-bootcamp.com</p>
         <h5>Phone</h5>
