@@ -18,7 +18,7 @@ function Home() {
             title: 'Assassins',
             image: 'https://images-na.ssl-images-amazon.com/images/I/91UhqniJxyL._RI_.jpg',
             text: 'Robert Rath is a seasoned hitman who just wants out of the business with no back talk. But, as things go, it aint so easy.',
-            id: 'tird-article',
+            id: 'third-article',
         },
     ];
 

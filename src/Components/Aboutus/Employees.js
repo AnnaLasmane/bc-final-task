@@ -5,7 +5,7 @@ function Employees({employees}) {
         return (
             <tr key={index}>
                 <td>
-                    <img src={employee.image} className="img-fluid" style={{maxHeight: '100px'}} />
+                    <img src={employee.image} className="img-fluid" style={{maxHeight: '120px'}} />
                 </td>
                 <td>{employee.name}</td>
             </tr>

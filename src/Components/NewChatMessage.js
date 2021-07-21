@@ -1,9 +1,9 @@
 function NewChatMessage({ username, message, time }) {
 
     return (
-        <li className="list-group-item bg-secondary">
-            <div className="card bg-dark text-light mt-1 mb-3 border border-info">
-                <div className="card-header fs-5 text-info">
+        <li className="list-group-item bg-light">
+            <div className="card bg-light text-secondary mt-1 mb-3 border border-secondary">
+                <div className="card-header fs-5 text-secondary">
                     <span className="me-5">{username}</span>
                     <span>{time}</span>
                 </div>
