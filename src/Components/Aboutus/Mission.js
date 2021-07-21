@@ -1,9 +1,13 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCrown } from '@fortawesome/free-solid-svg-icons'
+
 
 function Mission() {
     return (
         <div className="row mt-3">
             <div className="col-2">
-                <p> To be the best!</p>
+                <p> To be the best! <FontAwesomeIcon icon={faCrown} /></p>
+                
 
            
             </div>       

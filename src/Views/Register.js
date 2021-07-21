@@ -1,6 +1,8 @@
 import Breadcrumbs from '../Components/Breadcrumbs';
 import React from "react";
 import Forms from '../Components/Forms';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserFriends } from '@fortawesome/free-solid-svg-icons'
 
 
 function Register() {
@@ -16,7 +18,11 @@ function Register() {
                 <div className="col">
                     <Breadcrumbs paths={bredcrumbPaths} />
                 </div>
-                <h5> Register</h5>
+                
+                <div>
+                
+                <h5> <FontAwesomeIcon icon={faUserFriends} /> Register for Stallone Fan Club</h5>
+                  </div>
             </div>
             
             <div className="row">

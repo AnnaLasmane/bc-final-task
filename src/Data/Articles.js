@@ -15,15 +15,15 @@ const articles = [{
  
     {
         title: 'Rambo',
-        image: 'https://placekitten.com/500/500',
+        image: 'https://www.maxim.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTM1NjcxNjg2NjM1Nzc4MDE4/np010616_rambo_articlejpg.jpg',
         text: 'John Rambo (Sylvester Stallone) is a former member of an elite United States Army Special Forces unit and was awarded the Medal of Honor for his service in the Vietnam War in which he was also a prisoner of war (POW). The film begins 10 years after Rambo left the war, in the American Northwest in 1980. Rambo is searching for one of his friends from his unit, Delmar Berry. Rambo soon learns from Delmars mother that he has died a few months earlier from cancer due to Agent Orange exposure. Although not yet revealed to the audience, Rambo knows he is now the last surviving member of his unit. He leaves the picture of his unit with Berrys mother and walks away, obviously saddened.The scene fades to Rambo entering the small town of Hope, Washington State on foot, looking for a meal and possibly a hotel to spend the night. With his longish hair and military-style coat, he is quickly spotted by the towns overzealous and paranoid sheriff, Will Teasle (Brian Dennehy) who quickly drives Rambo out of town, noting his strong distaste for "drifters." A defiant Rambo heads back toward town immediately, to the dismay of Teasle who arrests him for vagrancy and for carrying a large combat knife as a concealed weapon.Rambo stands his ground against the officers at the station and is brutalized and harassed by Art Galt (Jack Starrett). ',
         id: 'second-article',
-        images: ['https://picsum.photos/500/500',
-         'https://picsum.photos/500/500', 
-         'https://picsum.photos/500/500',
-         'https://picsum.photos/500/500',
-         'https://picsum.photos/500/500', 
-         'https://picsum.photos/500/500'] },
+        images: ['https://i.pinimg.com/originals/64/e5/d6/64e5d6d01d55d1718a7e8cdc4c3bb311.jpg',
+         'https://i.pinimg.com/originals/ef/cb/6b/efcb6b29d768fb6199832d1d5c9bd805.jpg', 
+         'https://i.ytimg.com/an/-T39_xJo9iA/a90a1f89-6fe6-470c-aec6-2fa41c7fc1ab_mq.jpg?v=5ef6178d',
+         'https://sylvesterstallone.com/ia5/wp-content/uploads/2010/08/rambo4.jpg',
+         'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Rambo3poster.jpg/220px-Rambo3poster.jpg', 
+         'https://m.media-amazon.com/images/M/MV5BZTQ4NjhkZWEtODY1MC00MzllLTkzNDYtZWVkMjNlNWRiOTdjXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_.jpg' ]},
        
    
     {

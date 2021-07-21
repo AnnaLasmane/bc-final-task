@@ -4,19 +4,19 @@ function Home() {
     const articles = [
         {
             title: 'Rocky',
-            image: 'https://picsum.photos/200/200',
+            image: 'https://flxt.tmsimg.com/assets/p162719_p_v10_au.jpg',
             text: 'Some info about the article',
             id: 'first-article',
         },
         {
             title: 'Rambo',
-            image: 'https://www.maxim.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTM1NjcxNjg2NjM1Nzc4MDE4/np010616_rambo_articlejpg.jpg',
+            image: 'https://images-na.ssl-images-amazon.com/images/I/81gJdK33ERL._RI_.jpg',
             text: 'Some info about the article',
             id: 'second-article',
         },
         {
             title: 'Assassins',
-            image: 'https://loremflickr.com/200/200',
+            image: 'https://images-na.ssl-images-amazon.com/images/I/91UhqniJxyL._RI_.jpg',
             text: 'Some info about the article',
             id: 'tird-article',
         },
