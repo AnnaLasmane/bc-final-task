@@ -3,19 +3,19 @@ import {NavLink} from 'react-router-dom';
 function Home() {
     const articles = [
         {
-            title: 'Article 1',
+            title: 'Rocky',
             image: 'https://picsum.photos/200/200',
             text: 'Some info about the article',
             id: 'first-article',
         },
         {
-            title: 'Article 2',
-            image: 'https://placekitten.com/200/200',
+            title: 'Rambo',
+            image: 'https://www.maxim.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTM1NjcxNjg2NjM1Nzc4MDE4/np010616_rambo_articlejpg.jpg',
             text: 'Some info about the article',
             id: 'second-article',
         },
         {
-            title: 'Article 3',
+            title: 'Assassins',
             image: 'https://loremflickr.com/200/200',
             text: 'Some info about the article',
             id: 'tird-article',
@@ -56,15 +56,15 @@ function Home() {
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-                        <div className="carousel-inner">
-                            <div className="carousel-item active">
-                                <img src="https://picsum.photos/800/300" className="d-block w-100" alt="..." />
+                        <div className="carousel-inner" style={{height: 500}}>
+                            <div className="carousel-item active" >
+                                <img src="https://townsquare.media/site/295/files/2020/11/Rocky-collage.jpg" className="m d-block  w-100" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src="https://picsum.photos/800/300" className="d-block w-100" alt="..." />
+                                <img src="https://townsquare.media/site/295/files/2019/09/rambo.jpg?w=980&q=75" className="d-block  w-100" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src="https://picsum.photos/800/300" className="d-block w-100" alt="..." />
+                                <img src="https://images.hungama.com/c/1/d8d/329/24154516/24154516_1280x800.jpg" className="d-block  w-100" alt="..." />
                             </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -79,8 +79,8 @@ function Home() {
                 </div>
             </div>
             <div className="row">
-            <div className="col mt-3 mb-3">
-                    <h6>3 most recent articles</h6>
+            <div className="col mt-4 mb-3">
+                    <h5> Top 3 Sylvester Stallone movies from 90s </h5>
                 </div>
               
             </div>

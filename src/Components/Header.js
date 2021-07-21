@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import Logo from '../Assets/Images/uefa.png';
+import Logo from '../Assets/Images/logo.jpeg';
 
 function Header() {
     return (
