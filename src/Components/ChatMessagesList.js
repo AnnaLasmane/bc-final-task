@@ -15,7 +15,7 @@ function ChatMessagesList({ reloadMessageList, counter }) {
             items: [],
         });
         try {
-            const url = 'http://localhost:8070/chat-messages';
+            const url = 'http://localhost:8075/chats';
             const response = await axios.get(url);
             setMessages({
                 loading: false,
@@ -60,7 +60,7 @@ function ChatMessagesList({ reloadMessageList, counter }) {
     }
 
     return (
-        <ul className="list-group bg-light fw-bold overflow-auto" style={{ height: '400px' }}>
+        <ul className="list-group bg-light fw-bold overflow-auto border border-secondary" style={{ height: '400px' }}>
             {content}
         </ul>
     )

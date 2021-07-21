@@ -18,11 +18,11 @@ function ChatForm({ reloadMessageList }) {
     }
     const onSubmit = async () => {
         if (username === '') {
-            alert('Please fill the Username!');
+            alert('Please enter your username!');
             return;
         }
 
-        const url = 'http://localhost:8070/chat-messages';
+        const url = 'http://localhost:8075/chats';
         const data = {
             username: username,
             message: message,
@@ -40,21 +40,17 @@ function ChatForm({ reloadMessageList }) {
 
 
     return (
-        <form className="bg-light text-secondary p-3 my-2 text-secondary rounded" onSubmit={handleSubmit(onSubmit)}>
+        <form className="bg-light text-secondary p-3 my-2 text-dark rounded" onSubmit={handleSubmit(onSubmit)}>
             <div className="row justify-content-between">
-                <div className="col-10 text-secondary fw-bold">
+                <div className="col-8 col-md-10 text-secondary fw-bold">
                     <div className="row">
-                        <div className="col-4">
+                        <div className="col-6">
                             <div>
                                 <label>Username:</label>
                             </div>
                             <div>
                                 <input {...register("Username", {
                                     required: '  Username is required',
-                                    minLength: {
-                                        value: 3,
-                                        message: '  Username must be min 3 symbols long'
-                                    }
                                 })} className="form-control" onChange={changeUsername} value={username} />
                                 {errors.Username?.message}
                             </div>
@@ -64,12 +60,12 @@ function ChatForm({ reloadMessageList }) {
                         <label>Message:</label>
                     </div>
                     <div>
-                        <textarea {...register("Message", {required: '  Please enter a message'})} className="form-control" onChange={changeMessage} value={message} />
+                        <textarea {...register("Message", {required: ' Please enter a message'})} className="form-control" onChange={changeMessage} value={message} />
                         {errors.Message?.message}
                     </div>
                 </div>
-                <div className="col-2 d-grid gap-2 d-block align-items-end">
-                    <button className="text-secondary fw-bold btn btn-light btn-outline-dark" type="submit" >Send</button>
+                <div className="col-4 col-md-2 d-grid gap-2 d-block align-items-end">
+                    <button className="text-dark btn btn-secondary" type="submit" >Send</button>
                 </div>
             </div>
         </form>
