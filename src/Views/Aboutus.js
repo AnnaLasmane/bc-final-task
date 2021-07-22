@@ -47,9 +47,9 @@ function Aboutus() {
                     <h5>About us</h5>
                 </div>
             </div>
-            <div className="row">
-                <div className="col mb-5 border-bottom">
-                    <ul class="nav nav-tabs">
+            <div className="row mt-3">
+                <div className="col mb-5 border-bottom p-0" style={{backgroundColor: 'white', borderRadius: '5px 5px'}}>
+                    <ul class="nav nav-tabs px-5 pt-3 tabs-border">
                         <li class="nav-item">
                             <button class={'nav-link' + (activeTab === 'employees' ? ' active' : '')} onClick={() => setActiveTab('employees')}>Employees</button>
                         </li>
@@ -68,7 +68,7 @@ function Aboutus() {
                     <MapContainer />
         </div>
         <div className="col-6">
-        <h5>Adress</h5>
+        <h5>Address</h5>
         <p>Jūrmala, Mana iela 2</p>
         <h5>Email</h5>
         <p>anna@sgt-bootcamp.com</p>

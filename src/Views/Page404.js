@@ -1,3 +1,6 @@
+import { NavLink } from 'react-router-dom';
+import back from '../Assets/Images/back.png';
+
 function Page404() {
     return (
         <div className="container">
@@ -5,11 +8,11 @@ function Page404() {
                 <div className="col-6 offset-3 text-center">
                     <h1>Whoops...</h1>
                     <h2>Something went wrong</h2>
-                    <p className="text-muted">Some longer text Some longer text Some longer text Some longer text </p>
+                    <p className="text-muted"> Something went wrong while surfing through our page </p>
                     <div>
-                        <button className="btn btn-primary">Option 1</button>
-                        <button className="btn">Option 2</button>
+                    <NavLink class="btn btn-primary" to="/" role="button">Go Back</NavLink>
                     </div>
+                    <div className="col-6 mt-5 offset-3 text-center"> <img className="img-fluid w-75" src={back} alt="back" /></div>
                 </div>
             </div>
         </div>

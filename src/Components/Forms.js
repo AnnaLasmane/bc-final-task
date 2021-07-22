@@ -22,7 +22,7 @@ function RegisterForm() {
               <div class="col-8 mb-3">
 
               <input {...register("Password", {
-                    required: '  Password is required',
+                    required: 'Password is required',
                     minLength: {
                         value: 8,
                         message: 'Passwords must be at least 8 characters in length'
@@ -69,9 +69,9 @@ function RegisterForm() {
               <div className="row">
               <div class="col-12">
                   <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required />
+                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2"  />
                       <label class="form-check-label" for="invalidCheck2">
-                          Agree to terms and conditions
+                          Agree to accept latest news from our club
     </label>
                   </div>
               </div>

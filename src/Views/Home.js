@@ -6,19 +6,19 @@ function Home() {
             title: 'Rocky',
             image: 'https://flxt.tmsimg.com/assets/p162719_p_v10_au.jpg',
             text: 'Rocky Balboa is a struggling boxer trying to make the big time, working as a debt collector for a pittance.',
-            id: 'first-article',
+            slug: 'first-article',
         },
         {
             title: 'Rambo',
             image: 'https://images-na.ssl-images-amazon.com/images/I/81gJdK33ERL._RI_.jpg',
             text: 'Rambo is a former US Special Forces soldier who fought in Vietnam and won Medal of Honor, but his time in Vietnam still haunts him.',
-            id: 'second-article',
+            slug: 'second-article',
         },
         {
             title: 'Assassins',
             image: 'https://images-na.ssl-images-amazon.com/images/I/91UhqniJxyL._RI_.jpg',
             text: 'Robert Rath is a seasoned hitman who just wants out of the business with no back talk. But, as things go, it aint so easy.',
-            id: 'third-article',
+            slug: 'third-article',
         },
     ];
 
@@ -33,7 +33,7 @@ function Home() {
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title">
-                                    <NavLink to={'/articles/' + article.id}>
+                                    <NavLink to={'/articles/' + article.slug}>
                                         {article.title}
                                     </NavLink>
                                 </h5>
