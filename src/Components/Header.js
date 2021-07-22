@@ -1,7 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import Logo from '../Assets/Images/logo.jpeg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faNewspaper, faComments, faUsers, faAddressCard } from '@fortawesome/free-solid-svg-icons'
+
 
 
 function Header() {
@@ -17,35 +16,25 @@ function Header() {
                     <div className="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                            <NavLink className="nav-link text-center mx-3" exact to="/"> <div>
-                                    <FontAwesomeIcon icon={faHome} />
-                                </div>
+                            <NavLink className="nav-link text-center mx-3" exact to="/"> 
                                 Home
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                            <NavLink className="nav-link text-center mx-3" to="/articles"> <div>
-                                    <FontAwesomeIcon icon={faNewspaper} />
-                                </div>
+                            <NavLink className="nav-link text-center mx-3" to="/articles"> 
                                 Articles
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                            <NavLink className="nav-link text-center mx-3" to="/chat"> <div>
-                                    <FontAwesomeIcon icon={faComments} />
-                                </div>
+                            <NavLink className="nav-link text-center mx-3" to="/chat"> 
                                 Chat</NavLink>
                             </li>
                             <li className="nav-item">
-                            <NavLink className="nav-link text-center mx-3" exact to="/register"> <div>
-                                    <FontAwesomeIcon icon={faUsers} />
-                                </div>
+                            <NavLink className="nav-link text-center mx-3" exact to="/register"> 
                                 Register</NavLink>
                             </li>
                             <li className="nav-item">
-                            <NavLink className="nav-link text-center mx-3" exact to="/about-us"><div>
-                                    <FontAwesomeIcon icon={faAddressCard} />
-                                </div>
+                            <NavLink className="nav-link text-center mx-3" exact to="/about-us">
                                 About Us</NavLink>
                             </li>                           
                         </ul>
